@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resource Booking System - Manage Resources</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="manage-main">
+    <div class="manage-card">
+
+        <h1 class="main-title">RESOURCE BOOKING SYSTEM</h1>
+        <h3 class="page-title">Manage Resources</h3>
+
+        <!-- ADD RESOURCE FORM -->
+        <div class="resource-form">
+            <label>Resource Name</label>
+            <input type="text" id="resName" placeholder="Enter resource name">
+
+            <label>Resource Type</label>
+            <select id="resType">
+                <option value="">Select type</option>
+                <option>Projector</option>
+                <option>PC</option>
+                <option>Microphone</option>
+            </select>
+
+            <button onclick="addResource()" class="add-btn">Add Resource</button>
+        </div>
+
+        <!-- RESOURCE LIST TABLE -->
+        <table class="manage-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody id="resourceTable">
+                <!-- JS will load rows here -->
+            </tbody>
+        </table>
+
+        <!-- SUMMARY SECTION -->
+        <div class="resource-summary-container">
+
+            <div class="summary-header">
+                Resource Summary
+            </div>
+
+            <div id="resource-summary"></div>
+
+        </div>
+
+        <p class="register-link">
+            <a href="admin-dashboard.html">Back to Admin Dashboard</a>
+        </p>
+
+    </div>
+</div>
+
+<script src="js/resources.js"></script>
+
+</body>
+</html>

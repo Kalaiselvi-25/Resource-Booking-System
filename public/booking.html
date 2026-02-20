@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Resource Booking — Book Resource</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="booking-main">
+  <div class="booking-card">
+
+    <!-- LEFT: categories + expandable lists -->
+    <aside class="left-panel" aria-label="Resources">
+      <h2>Available Resources</h2>
+
+      <div class="category" data-cat="Projector">
+        <button class="cat-btn" aria-expanded="false">
+          Projector <span class="caret"></span>
+        </button>
+        <ul class="sublist" id="cat-Projector" hidden></ul>
+      </div>
+
+      <div class="category" data-cat="PC">
+        <button class="cat-btn" aria-expanded="false">
+          PC <span class="caret"></span>
+        </button>
+        <ul class="sublist" id="cat-PC" hidden></ul>
+      </div>
+
+      <div class="category" data-cat="Microphone">
+        <button class="cat-btn" aria-expanded="false">
+          Microphone <span class="caret"></span>
+        </button>
+        <ul class="sublist" id="cat-Microphone" hidden></ul>
+      </div>
+    </aside>
+
+    <!-- RIGHT: date/time + selected resource -->
+    <main class="right-panel">
+      <h2>BOOK A RESOURCE</h2>
+
+      <p id="selectedResource" class="selected-resource-display">
+        Selected Resource: <strong>None</strong>
+      </p>
+
+      <label for="date">Select Date</label>
+      <input type="date" id="date">
+
+      <label for="time">Select Time Slot</label>
+      <select id="time">
+        <option value="">Select time</option>
+        <option>9 AM - 11 AM</option>
+        <option>11 AM - 1 PM</option>
+        <option>2 PM - 4 PM</option>
+        <option>4 PM - 6 PM</option>
+      </select>
+
+      <button onclick="bookResource()">Book</button>
+
+      <p class="register-link">
+        <a href="student-dashboard.html">Back to Dashboard</a>
+      </p>
+    </main>
+
+  </div>
+</div>
+
+<script src="js/booking.js"></script>
+</body>
+</html>
