@@ -24,8 +24,8 @@ A full-stack web application that allows users to book shared resources and enab
 
 ## 📂 Project Structure
 Resource-Booking-System/
-├── backend/        # Server-side code
-├── public/         # Frontend files
+├── backend/ # Server-side code
+├── public/ # Frontend files
 ├── .gitignore
 ├── LICENSE
 └── README.md
