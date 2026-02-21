@@ -19,7 +19,9 @@ A full-stack web application that allows users to book shared resources and enab
 
 ## ▶️ Usage
 git clone https://github.com/Kalaiselvi-25/Resource-Booking-System.git
+
 cd Resource-Booking-System
+
 1. Ensure the database is created and configured  
 2. Start the backend server  
 3. Access the application through the frontend   
