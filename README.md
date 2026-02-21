@@ -27,12 +27,15 @@ cd Resource-Booking-System
 3. Access the application through the frontend   
 
 ## 📂 Project Structure
+
+```text
 Resource-Booking-System/
-├── backend/        # Server-side code 
-├── public/         # Frontend files
+├── backend/        # Server-side code (Node.js, Express)
+├── public/         # Frontend files (HTML, CSS, JavaScript)
 ├── .gitignore      # Git ignore rules
 ├── LICENSE         # MIT License
 └── README.md       # Project documentation
+```
 
 ## 📄 License
 This project is licensed under the **MIT License**
