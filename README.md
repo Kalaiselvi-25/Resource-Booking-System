@@ -28,8 +28,8 @@ cd Resource-Booking-System
 
 ## 📂 Project Structure
 Resource-Booking-System/
-├── backend/        # Server-side code (Node.js, Express)
-├── public/         # Frontend files (HTML, CSS, JavaScript)
+├── backend/        # Server-side code 
+├── public/         # Frontend files
 ├── .gitignore      # Git ignore rules
 ├── LICENSE         # MIT License
 └── README.md       # Project documentation
