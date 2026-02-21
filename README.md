@@ -28,7 +28,7 @@ cd Resource-Booking-System
 
 1. Ensure the database is created and configured  
 2. Start the backend server  
-3. Access the application through the frontend  
+3. Access the application via the frontend 
 
 ## 📂 Project Structure
 
