@@ -11,7 +11,6 @@ A full-stack web application that allows users to book shared resources and enab
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** Node.js, Express.js  
 - **Database:** MySQL  
-The system follows a role-based design to ensure controlled access and smooth booking operations.
 
 ## 🛠️ Requirements
 - Node.js (v16+)
@@ -25,8 +24,8 @@ The system follows a role-based design to ensure controlled access and smooth bo
 
 ## 📂 Project Structure
 Resource-Booking-System/
-├── backend/
-├── public/
+├── backend/        # Server-side code
+├── public/         # Frontend files
 ├── .gitignore
 ├── LICENSE
 └── README.md
