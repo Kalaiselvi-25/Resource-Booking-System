@@ -1,5 +1,7 @@
 # Resource Booking System
  A full-stack web application that allows users to book shared resources and enables administrators to manage availability and approvals.
+ 
+ ## ✨ Features
 - 👤 User authentication
 - 📋 Resource listing and availability
 - 📅 Resource booking and cancellation
