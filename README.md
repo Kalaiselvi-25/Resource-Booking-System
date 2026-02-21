@@ -18,9 +18,7 @@ A full-stack web application that allows users to book shared resources and enab
 - npm
 
 ## ▶️ Usage
-# Clone the repository
 git clone https://github.com/Kalaiselvi-25/Resource-Booking-System.git
-# Navigate to the project
 cd Resource-Booking-System
 1. Ensure the database is created and configured  
 2. Start the backend server  
@@ -28,8 +26,8 @@ cd Resource-Booking-System
 
 ## 📂 Project Structure
 Resource-Booking-System/
-├── backend/          # Server-side code
-├── public/           # Frontend files 
+├── backend/          # Server-side code (Node.js, Express)
+├── public/           # Frontend files (HTML, CSS, JS)
 ├── .gitignore        # Git ignore rules
 ├── LICENSE           # MIT License
 └── README.md         # Project documentation
